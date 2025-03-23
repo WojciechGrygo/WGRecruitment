@@ -13,8 +13,7 @@ This repository contains API and UI tests using Playwright.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/slawekradzyminski/playwright-january.git
-cd playwright-january
+git clone https://github.com/WojciechGrygo/WGRecruitment.git
 ```
 
 2. Install dependencies:
@@ -22,9 +21,14 @@ cd playwright-january
 npm install
 ```
 
-3. Install Playwright browsers:
+3. Install Playwright:
 ```bash
 npx playwright install
+```
+
+4. Install dotenv:
+```bash
+npm i -D dotenv
 ```
 
 ## 💡 Recommendations
