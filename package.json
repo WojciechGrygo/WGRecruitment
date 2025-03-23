@@ -1,0 +1,21 @@
+{
+  "name": "nord",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "npx playwright test tests/api",
+    "test:ui": "npx playwright test tests/ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.11",
+    "dotenv": "^16.4.7"
+  },
+  "dependencies": {
+    "playwright": "^1.51.1"
+  }
+}
